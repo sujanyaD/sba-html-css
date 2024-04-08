@@ -1,0 +1,33 @@
+.login{
+    border: 2px solid; 
+    width: 20%; 
+    min-height: 50%;
+    height:80%;
+}
+.kidsbooks{
+width: 160px;
+/
+
+
+}
+
+.nav-link{
+    text-decoration: solid;
+    color: bold;
+}
+.writing{
+
+    width:160px;
+    /* border:1px dashed; */
+}
+
+.btn{
+ width: 200px;
+ 
+}
+
+.row2{
+margin-top: 20px;
+
+}
+
