@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="../styles/page1.css">
+    <link rel="stylesheet" href="../styles/HomePage.css">
     <title>welcome to online Library</title>
 </head>
 <style>
@@ -39,16 +39,16 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Write</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./page2.html">Continue Writing</a></li>
-                            <li><a class="dropdown-item" href="./page2.html">Start Writing a new story</a></li>
+                            <li><a class="dropdown-item" href="./Readers.html">Continue Writing</a></li>
+                            <li><a class="dropdown-item" href="./Readers.html">Start Writing a new story</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Read</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="page3.html">Comics</a></li>
-                            <li><a class="dropdown-item" href="/pages/page3.html">Chapter</a></li>
-                            <li><a class="dropdown-item" href="page3.html">Mistery Novels</a></li>
+                            <li><a class="dropdown-item" href="writersPage.html">Comics</a></li>
+                            <li><a class="dropdown-item" href="writersPage.html">Chapter</a></li>
+                            <li><a class="dropdown-item" href="writersPage.html">Mistery Novels</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,7 +56,9 @@
         </div>
     </nav>
 
-    <h1 style="color: darkorchid; text-align:center; text-align: right; width : 60% ; margin-top: 30px; margin-bottom: 40px;" ><strong>Welcome to book club</strong>
+    <h1
+        style="color: darkorchid; text-align:center; text-align: right; width : 60% ; margin-top: 20px; margin-bottom: 10px;">
+        <strong>Welcome to book club</strong>
     </h1>
     <!-- <div class="sidebar"> -->
 
@@ -74,14 +76,14 @@
             <div class="col col-xl-2">
                 <img src="images\writing.jfif" class="writing" alt="book images">
             </div>
-            <div class="col col-md-4" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum minus dolor
+            <div class="col col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum minus dolor
                 consequuntur aut soluta rem, aliquid obcaecati odit, corporis laboriosam a architecto vero quo ut
                 dolorum quos quae eius quidem. Laborum, atque nisi maxime possimus odit earum minus aperiam nulla
                 asperiores dolores sunt iusto exercitationem reprehenderit laboriosam, voluptatem pariatur vel!
             </div>
-    
+
             <div class="row row2">
-                <div class="col col-lg-6" >
+                <div class="col col-lg-6">
                     <button type="button" class="btn btn-primary btn-lg ">Start Reading</button>
                 </div>
                 <div class="col col-lg-6">
@@ -89,15 +91,31 @@
                 </div>
             </div>
             <div class="row row2">
-                <div class="col col-lg-6" >
-                    <button type="button" class="btn btn-primary btn-lg ">Login</button>
-                </div>
+                <form action="Submit">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Password</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="password" id="pwd" name="pwd">
+                        </div>
+                    </div>
+                    <br>
+
+                </form>
                 <div class="col col-lg-6">
-                    <button type="button" class="btn btn-primary btn-lg ">Create Account</button>
+                    <a class="btn btn-primary" href="#" role="button">Login</a>
                 </div>
+                <a href="./Registration.html">Register</a>
             </div>
-
-
         </div>
     </div>
 </body>
