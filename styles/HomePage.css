@@ -23,8 +23,17 @@ width: 160px;
 
 .btn{
  width: 200px;
- 
-}
+     height: 5ex;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color:chocolate ;
+  }
+  
 
 .row2{
 margin-top: 10px;
